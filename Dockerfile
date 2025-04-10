@@ -1,4 +1,4 @@
-FROM node:7.7-alpine
+FROM --platform=linux/arm64 node:14
 MAINTAINER Jatin Shridhar <shridhar.jatin@gmail.com>
 
 # install deps
